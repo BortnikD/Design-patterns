@@ -4,6 +4,7 @@ import com.bortnik.patterns.generative.builder.BuilderDemo;
 import com.bortnik.patterns.generative.factory.abstract_f.AbstractFactoryDemo;
 import com.bortnik.patterns.generative.factory.method.FactoryMethodDemo;
 import com.bortnik.patterns.generative.factory.simple.SimpleFactoryDemo;
+import com.bortnik.patterns.generative.prototype.PrototypeDemo;
 import com.bortnik.patterns.generative.singleton.SingletonDemo;
 
 public class Main {
@@ -17,5 +18,7 @@ public class Main {
         AbstractFactoryDemo.demonstrate();
 
         SingletonDemo.demonstrate();
+
+        PrototypeDemo.demonstrate();
     }
 }
