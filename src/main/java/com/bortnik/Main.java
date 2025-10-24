@@ -7,6 +7,8 @@ import com.bortnik.patterns.generative.factory.simple.SimpleFactoryDemo;
 import com.bortnik.patterns.generative.prototype.PrototypeDemo;
 import com.bortnik.patterns.generative.singleton.SingletonDemo;
 import com.bortnik.patterns.structural.adapter.AdapterDemo;
+import com.bortnik.patterns.structural.bridge.BridgeDemo;
+import com.bortnik.patterns.structural.composite.CompositeDemo;
 import com.bortnik.patterns.structural.decorator.DecoratorDemo;
 
 public class Main {
@@ -30,5 +32,9 @@ public class Main {
         DecoratorDemo.demonstrate();
 
         AdapterDemo.demonstrate();
+
+        BridgeDemo.demonstrate();
+
+        CompositeDemo.demonstrate();
     }
 }
