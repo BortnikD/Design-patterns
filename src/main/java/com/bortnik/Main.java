@@ -6,9 +6,12 @@ import com.bortnik.patterns.generative.factory.method.FactoryMethodDemo;
 import com.bortnik.patterns.generative.factory.simple.SimpleFactoryDemo;
 import com.bortnik.patterns.generative.prototype.PrototypeDemo;
 import com.bortnik.patterns.generative.singleton.SingletonDemo;
+import com.bortnik.patterns.structural.decorator.DecoratorDemo;
 
 public class Main {
     public static void main(String[] args) {
+        System.out.println("===== Generated Patterns =====");
+
         BuilderDemo.demonstrate();
 
         SimpleFactoryDemo.demonstrate();
@@ -20,5 +23,9 @@ public class Main {
         SingletonDemo.demonstrate();
 
         PrototypeDemo.demonstrate();
+
+        System.out.println("===== Structural Patterns =====");
+
+        DecoratorDemo.demonstrate();
     }
 }
