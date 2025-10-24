@@ -6,6 +6,7 @@ import com.bortnik.patterns.generative.factory.method.FactoryMethodDemo;
 import com.bortnik.patterns.generative.factory.simple.SimpleFactoryDemo;
 import com.bortnik.patterns.generative.prototype.PrototypeDemo;
 import com.bortnik.patterns.generative.singleton.SingletonDemo;
+import com.bortnik.patterns.structural.adapter.AdapterDemo;
 import com.bortnik.patterns.structural.decorator.DecoratorDemo;
 
 public class Main {
@@ -27,5 +28,7 @@ public class Main {
         System.out.println("===== Structural Patterns =====");
 
         DecoratorDemo.demonstrate();
+
+        AdapterDemo.demonstrate();
     }
 }
