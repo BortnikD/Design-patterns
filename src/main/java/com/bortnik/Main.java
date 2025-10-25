@@ -10,6 +10,7 @@ import com.bortnik.patterns.structural.adapter.AdapterDemo;
 import com.bortnik.patterns.structural.bridge.BridgeDemo;
 import com.bortnik.patterns.structural.composite.CompositeDemo;
 import com.bortnik.patterns.structural.decorator.DecoratorDemo;
+import com.bortnik.patterns.structural.facade.FacadeDemo;
 
 public class Main {
     public static void main(String[] args) {
@@ -36,5 +37,7 @@ public class Main {
         BridgeDemo.demonstrate();
 
         CompositeDemo.demonstrate();
+
+        FacadeDemo.demonstrate();
     }
 }
