@@ -11,6 +11,7 @@ import com.bortnik.patterns.structural.bridge.BridgeDemo;
 import com.bortnik.patterns.structural.composite.CompositeDemo;
 import com.bortnik.patterns.structural.decorator.DecoratorDemo;
 import com.bortnik.patterns.structural.facade.FacadeDemo;
+import com.bortnik.patterns.structural.flyweight.FlyweightDemo;
 
 public class Main {
     public static void main(String[] args) {
@@ -39,5 +40,7 @@ public class Main {
         CompositeDemo.demonstrate();
 
         FacadeDemo.demonstrate();
+
+        FlyweightDemo.demonstrate();
     }
 }

@@ -1,7 +1,7 @@
 package com.bortnik.patterns.structural.facade;
 
 /**
- * The facade template provides easy object management through a single interface, but you can also
+ * The facade pattern provides easy object management through a single interface, but you can also
  * manage each object.
  */
 public class FacadeDemo {
