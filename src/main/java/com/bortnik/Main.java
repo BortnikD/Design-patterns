@@ -2,6 +2,7 @@ package com.bortnik;
 
 import com.bortnik.patterns.behavioral.chain.ChainDemo;
 import com.bortnik.patterns.behavioral.command.CommandDemo;
+import com.bortnik.patterns.behavioral.interpreter.InterpreterDemo;
 import com.bortnik.patterns.generative.builder.BuilderDemo;
 import com.bortnik.patterns.generative.factory.abstract_f.AbstractFactoryDemo;
 import com.bortnik.patterns.generative.factory.method.FactoryMethodDemo;
@@ -53,5 +54,7 @@ public class Main {
         ChainDemo.demonstrate();
 
         CommandDemo.demonstrate();
+
+        InterpreterDemo.demonstrate();
     }
 }
