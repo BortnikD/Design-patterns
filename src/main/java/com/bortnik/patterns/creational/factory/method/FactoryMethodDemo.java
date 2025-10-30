@@ -1,4 +1,4 @@
-package com.bortnik.patterns.generative.factory.method;
+package com.bortnik.patterns.creational.factory.method;
 
 /**
  * The Factory Method pattern is an official GoF pattern. This pattern requires more boilerplate code, due

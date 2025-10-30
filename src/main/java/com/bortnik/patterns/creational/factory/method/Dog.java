@@ -1,4 +1,4 @@
-package com.bortnik.patterns.generative.factory.simple;
+package com.bortnik.patterns.creational.factory.method;
 
 public class Dog implements Movable {
     @Override

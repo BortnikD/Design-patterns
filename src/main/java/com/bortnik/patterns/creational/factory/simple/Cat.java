@@ -1,4 +1,4 @@
-package com.bortnik.patterns.generative.factory.simple;
+package com.bortnik.patterns.creational.factory.simple;
 
 public class Cat implements Movable {
     @Override

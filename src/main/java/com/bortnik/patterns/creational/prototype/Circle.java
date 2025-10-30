@@ -1,4 +1,4 @@
-package com.bortnik.patterns.generative.prototype;
+package com.bortnik.patterns.creational.prototype;
 
 public class Circle implements Cloneable {
     private final double x;

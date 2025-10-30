@@ -1,4 +1,4 @@
-package com.bortnik.patterns.generative.factory.abstract_f;
+package com.bortnik.patterns.creational.factory.abstract_f;
 
 /**
  * This pattern assumes that you have several product families located in separate class hierarchies.

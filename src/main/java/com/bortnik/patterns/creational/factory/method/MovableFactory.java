@@ -1,4 +1,4 @@
-package com.bortnik.patterns.generative.factory.method;
+package com.bortnik.patterns.creational.factory.method;
 
 public abstract class MovableFactory {
     public abstract Movable createMovable();

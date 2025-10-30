@@ -1,4 +1,4 @@
-package com.bortnik.patterns.generative.factory.abstract_f;
+package com.bortnik.patterns.creational.factory.abstract_f;
 
 public interface Car {
     void drive();

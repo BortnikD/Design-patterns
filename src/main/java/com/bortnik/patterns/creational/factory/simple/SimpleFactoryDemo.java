@@ -1,4 +1,4 @@
-package com.bortnik.patterns.generative.factory.simple;
+package com.bortnik.patterns.creational.factory.simple;
 
 /**
  * A Simple factory is not an official GoF pattern, but it is the most common one

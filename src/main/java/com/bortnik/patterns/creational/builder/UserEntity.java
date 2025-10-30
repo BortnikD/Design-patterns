@@ -1,4 +1,4 @@
-package com.bortnik.patterns.generative.builder;
+package com.bortnik.patterns.creational.builder;
 
 /**
  * Implementation of the builder pattern using the example of a user entity that contains many fields

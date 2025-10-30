@@ -1,4 +1,4 @@
-package com.bortnik.patterns.generative.singleton;
+package com.bortnik.patterns.creational.singleton;
 
 public class SingletonDemo {
     public static void demonstrate() {

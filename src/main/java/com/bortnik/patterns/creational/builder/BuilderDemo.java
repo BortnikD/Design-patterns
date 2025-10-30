@@ -1,4 +1,4 @@
-package com.bortnik.patterns.generative.builder;
+package com.bortnik.patterns.creational.builder;
 
 public class BuilderDemo {
     public static void demonstrate() {

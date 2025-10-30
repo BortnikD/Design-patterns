@@ -1,4 +1,4 @@
-package com.bortnik.patterns.generative.prototype;
+package com.bortnik.patterns.creational.prototype;
 
 public class PrototypeDemo {
     public static void demonstrate() {
