@@ -5,6 +5,7 @@ import com.bortnik.patterns.behavioral.command.CommandDemo;
 import com.bortnik.patterns.behavioral.interpreter.InterpreterDemo;
 import com.bortnik.patterns.behavioral.iterator.IteratorDemo;
 import com.bortnik.patterns.behavioral.mediator.MediatorDemo;
+import com.bortnik.patterns.behavioral.observer.ObserverDemo;
 import com.bortnik.patterns.creational.builder.BuilderDemo;
 import com.bortnik.patterns.creational.factory.abstract_f.AbstractFactoryDemo;
 import com.bortnik.patterns.creational.factory.method.FactoryMethodDemo;
@@ -62,5 +63,7 @@ public class Main {
         IteratorDemo.demonstrate();
 
         MediatorDemo.demonstrate();
+
+        ObserverDemo.demonstrate();
     }
 }
