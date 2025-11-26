@@ -7,6 +7,7 @@ import com.bortnik.patterns.behavioral.iterator.IteratorDemo;
 import com.bortnik.patterns.behavioral.mediator.MediatorDemo;
 import com.bortnik.patterns.behavioral.observer.ObserverDemo;
 import com.bortnik.patterns.behavioral.state.StateDemo;
+import com.bortnik.patterns.behavioral.strategy.StrategyDemo;
 import com.bortnik.patterns.creational.builder.BuilderDemo;
 import com.bortnik.patterns.creational.factory.abstract_f.AbstractFactoryDemo;
 import com.bortnik.patterns.creational.factory.method.FactoryMethodDemo;
@@ -68,5 +69,7 @@ public class Main {
         ObserverDemo.demonstrate();
 
         StateDemo.demonstrate();
+
+        StrategyDemo.demonstrate();
     }
 }
