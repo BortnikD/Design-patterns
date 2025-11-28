@@ -5,6 +5,7 @@ import com.bortnik.patterns.behavioral.command.CommandDemo;
 import com.bortnik.patterns.behavioral.interpreter.InterpreterDemo;
 import com.bortnik.patterns.behavioral.iterator.IteratorDemo;
 import com.bortnik.patterns.behavioral.mediator.MediatorDemo;
+import com.bortnik.patterns.behavioral.memento.MementoDemo;
 import com.bortnik.patterns.behavioral.observer.ObserverDemo;
 import com.bortnik.patterns.behavioral.state.StateDemo;
 import com.bortnik.patterns.behavioral.strategy.StrategyDemo;
@@ -77,5 +78,7 @@ public class Main {
         TemplateMethodDemo.demonstrate();
 
         VisitorDemo.demonstrate();
+
+        MementoDemo.demonstrate();
     }
 }
